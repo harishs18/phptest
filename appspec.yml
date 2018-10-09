@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www
+    destination: /var/www/html/
 permissions:
-  - object: /var/www
+  - object: /var/www/
     owner: "www-data"
     group: "www-data"
 hooks:
